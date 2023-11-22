@@ -1,0 +1,64 @@
+#circ {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+}
+
+.seek {
+    position: absolute;
+    margin: 0;
+    height: 5px;
+    width: 350px;
+    background-color: white;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 0);
+    z-index: 1;
+}
+
+.button {
+    position: fixed;
+    top:55%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.next {
+    position: absolute;
+    right: 35%;
+}
+
+.previous{
+    position: absolute;
+    left: 35%;
+}
+
+.pause {
+    position: absolute;
+    left: 48%;
+}
+.pip {
+    position: absolute;
+    top: 75%
+}
+
+.text{
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    z-index: 1;
+}
+
+.song{
+    position: absolute;
+    transform: translate(-20%, -100%);
+}
+
+.artist {
+    position: absolute;
+    transform: translate(-20%, 0);
+}
